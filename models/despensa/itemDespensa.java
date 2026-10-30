@@ -7,6 +7,8 @@ public class ItemDespensa {
     private LocalDate fechaCaducidad;
     private long idProducto;
     private long idDespensa;
+
+    
     
     public ItemDespensa() {
     }
