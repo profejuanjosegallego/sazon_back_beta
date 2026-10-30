@@ -80,8 +80,11 @@ public class Campañas {
         this.idUsuarioCreador = idUsuarioCreador;
     }
 
-    
-
-    
+    @Override
+    public String toString() {
+        return "Campañas [id=" + id + ", nombre=" + nombre + ", descripción=" + descripción + ", fechaInicio="
+                + fechaInicio + ", fechaFin=" + fechaFin + ", activa=" + activa + ", idUsuarioCreador="
+                + idUsuarioCreador + "]";
+    }
 
 }
