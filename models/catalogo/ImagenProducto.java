@@ -1,6 +1,6 @@
 package models.catalogo;
 
-public class Imagen_Producto {
+public class ImagenProducto {
 
     private long id;
     private String url;
@@ -9,10 +9,10 @@ public class Imagen_Producto {
     private Integer orden;
     private long idProducto;
 
-    public Imagen_Producto() {
+    public ImagenProducto() {
     }
 
-    public Imagen_Producto(long id, String url, String textoAletarnativo, Boolean esPrincipal, Integer orden,
+    public ImagenProducto(long id, String url, String textoAletarnativo, Boolean esPrincipal, Integer orden,
             long idProducto) {
         this.id = id;
         this.url = url;
@@ -72,7 +72,7 @@ public class Imagen_Producto {
 
     @Override
     public String toString() {
-        return "Imagen_Producto [id=" + id + ", url=" + url + ", textoAletarnativo=" + textoAletarnativo
+        return "ImagenProducto [id=" + id + ", url=" + url + ", textoAletarnativo=" + textoAletarnativo
                 + ", esPrincipal=" + esPrincipal + ", orden=" + orden + ", idProducto=" + idProducto + "]";
     }
 
